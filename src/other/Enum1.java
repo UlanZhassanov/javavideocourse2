@@ -17,6 +17,7 @@ public class Enum1 {
 
 //        int[] res = new int[5];
 //        res[1] = 2;
+
     }
 
     @Override
