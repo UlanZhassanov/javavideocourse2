@@ -13,7 +13,7 @@ public class ParallelStream {
         list.add(12.25);
         list.add(3.5);
 
-        double sum = list.parallelStream().reduce((localsum, e)->localsum+e).get();
+        double sum = list.parallelStream().reduce((accumulator, e)->accumulator+e).get();
         System.out.println(sum);
     }
 }
